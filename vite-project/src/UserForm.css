@@ -1,0 +1,54 @@
+.AllInformation {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2, legend {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  fieldset {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  
+  .form-control {
+    padding: 10px;
+    font-size: 1rem;
+  }
+  
+  .bt {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10px;
+  }
+  
+  .btn-primary, .btn-secondary {
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .AllInformation {
+      padding: 10px;
+    }
+  
+    .bt {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .btn-primary, .btn-secondary {
+      width: 100%;
+    }
+  }
+  
